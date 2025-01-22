@@ -2,7 +2,7 @@
 
 ## 1. Training Strategy and Component Freezing
 
-Based on our implementation and test results (e.g., sentiment confidence ~42.11%, subjectivity confidence ~58.26%), here's when to freeze different components:
+Based on my implementation and test results (e.g., sentiment confidence ~42.11%, subjectivity confidence ~58.26%), here's when to freeze different components:
 
 ### When to Freeze Transformer Backbone:
 1. When fine-tuning for Fetch-specific terminology
@@ -28,7 +28,7 @@ Based on our implementation and test results (e.g., sentiment confidence ~42.11%
 
 ## 2. Multi-Task vs. Separate Models Decision
 
-Based on our implementation and test results:
+Based on the implementation and test results:
 
 ### Use Multi-Task Model When:
 1. Tasks share common features
@@ -80,7 +80,7 @@ Assuming Task A (sentiment) has abundant data while Task B (subjectivity) has li
    - Stricter validation for abundant task
    - More lenient metrics for limited task
 
-These solutions are reflected in our implementation:
+These solutions are reflected in the implementation:
 - Modular architecture allowing task-specific modifications
 - Flexible training configurations
 - Shared backbone for efficient knowledge transfer
