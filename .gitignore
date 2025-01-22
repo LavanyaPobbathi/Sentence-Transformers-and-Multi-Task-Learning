@@ -1,2 +1,31 @@
-/.DS_Store
-/venv
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.pytest_cache
+*.pyc
+
+# VS Code files
+.vscode/
+*.code-workspace
+
+# Cache directories
+.pytest_cache/
+v/cache/
+lastfailed
+nodeids
+stepwise
+
+# System files
+.DS_Store
+CACHEDIR.TAG
+*.cpython-*.pyc
+
+# Specific to your project
+src/__pycache__/
+src/models/__pycache__/
+tests/__pycache__/
+tests/.pytest_cache/
+*.cpython-311-pytest-*.pyc
+*.cpython-312-pytest-*.pyc
