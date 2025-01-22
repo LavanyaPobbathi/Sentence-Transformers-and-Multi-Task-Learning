@@ -1,4 +1,4 @@
-# Fetch Receipt Analysis Multi-Task Transformer
+# Fetch Receipt Analysis Sentence Transformers and Multi Task Learning
 
 A PyTorch implementation of a multi-task transformer for analyzing Fetch app receipts and user feedback, combining sentiment analysis and subjectivity classification.
 
