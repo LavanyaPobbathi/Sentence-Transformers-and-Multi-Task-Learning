@@ -29,3 +29,30 @@ tests/__pycache__/
 tests/.pytest_cache/
 *.cpython-311-pytest-*.pyc
 *.cpython-312-pytest-*.pyc
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System
+.DS_Store
+Thumbs.db
+
+# PyTorch specific
+*.pth
+*.pt
+*.bin
