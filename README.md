@@ -77,12 +77,12 @@ sentiment_out, subjectivity_out = model(inputs["input_ids"], inputs["attention_m
 Based on test results:
 
 1. Sentiment Analysis:
-   - Average confidence: ~42.11%
+   - Average confidence: ~41.42%
    - Best performance on positive statements
    - Reliable neutral classification
 
 2. Subjectivity Classification:
-   - Average confidence: ~58.26%
+   - Average confidence: ~57.66%
    - Strong objective statement detection
    - Consistent performance across categories
      
