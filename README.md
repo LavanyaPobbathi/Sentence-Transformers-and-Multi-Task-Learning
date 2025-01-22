@@ -85,6 +85,10 @@ Based on test results:
    - Average confidence: ~58.26%
    - Strong objective statement detection
    - Consistent performance across categories
+     
+Sample performance:
+![image](https://github.com/user-attachments/assets/c1fbf0cf-aa4c-456c-8983-b442e0203c57)
+
 
 ## Test Results
 All tests passed successfully:
@@ -94,9 +98,6 @@ All tests passed successfully:
 - Model component validation
 - Multi-task inference testing
 
-Sample performance:
-```
-Text: "The Fetch app rewards are amazing, I earned 5000 points!"
-- Sentiment: Neutral (43.67% confidence)
-- Subjectivity: Objective (64.77% confidence)
-```
+Sample Tests:
+![image](https://github.com/user-attachments/assets/6df9b44b-7e3d-46b1-87bd-d88a3538ec05)
+
