@@ -86,7 +86,8 @@ Based on test results:
    - Strong objective statement detection
    - Consistent performance across categories
      
-Sample performance:
+### Sample performance:
+
 ![image](https://github.com/user-attachments/assets/c1fbf0cf-aa4c-456c-8983-b442e0203c57)
 
 
@@ -98,6 +99,7 @@ All tests passed successfully:
 - Model component validation
 - Multi-task inference testing
 
-Sample Tests:
+### Sample Tests:
+
 ![image](https://github.com/user-attachments/assets/6df9b44b-7e3d-46b1-87bd-d88a3538ec05)
 
