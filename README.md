@@ -75,6 +75,38 @@ sentiment_out, subjectivity_out = model(inputs["input_ids"], inputs["attention_m
 
 ## Performance Metrics
 Based on test results:
+1. Sentiment Analysis:
+   - Average Confidence: Calculate average confidence for predictions (Neutral, Positive, etc.).
+   - Neutral: 43.67%, 35.19%, 47.01%, 48.19%
+   - Positive: 41.59%, 37.02%
+   - Average Neutral Confidence = (43.67 + 35.19 + 47.01 + 48.19) / 4 = 43.52%
+   - Average Positive Confidence = (41.59 + 37.02) / 2 = 39.31%
+   - Overall Average Confidence for Sentiment Analysis = (43.52 + 39.31) / 2 = 41.42%
+
+### Performance Highlights:
+
+ - Stronger performance on Neutral classifications.
+ - Reasonable accuracy for Positive statements but requires improvement.
+
+2. Subjectivity Classification:
+   
+Confidence Values:
+
+Objective: 64.77%, 55.10%, 54.37%, 60.54%
+
+Subjective: 55.10%, 58.19%, 56.59%
+
+Average Objective Confidence = (64.77 + 55.10 + 54.37 + 60.54) / 4 = 58.69%
+
+Average Subjective Confidence = (55.10 + 58.19 + 56.59) / 3 = 56.63%
+
+Overall Average Confidence for Subjectivity Classification = (58.69 + 56.63) / 2 = 57.66%
+
+Performance Highlights:
+
+Stronger Objective detection across sentences.
+Slightly lower confidence for Subjective categories.
+
 
 1. Sentiment Analysis:
    - Average confidence: ~42.11%
